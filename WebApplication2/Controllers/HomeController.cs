@@ -15,6 +15,7 @@ namespace WebApplication2.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.message = "we have a message from controller"; 
             return View();
         }
 
